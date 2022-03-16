@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-void main()
+void int_type()
 {
 	char ch1 = CHAR_MIN;		// char 최솟값
 	char ch2 = CHAR_MAX;		// char 최댓값
@@ -20,12 +20,3 @@ void main()
 	printf("long 자료형 범위 : %ld ~ %ld \n", lo1, lo2);
 	printf("long long 자료형 범위 : %lld ~ %lld \n", ll1, ll2);
 }
-
-/*
-출력
-	char 자료형 범위 : -128 ~ 127
-	short 자료형 범위 : -32768 ~ 32767
-	int 자료형 범위 : -2147483648 ~ 2147483647
-	long 자료형 범위 : -2147483648 ~ 2147483647
-	long long 자료형 범위 : -9223372036854775808 ~ 9223372036854775807
-*/
