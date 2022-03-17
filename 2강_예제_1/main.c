@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void main()
 {
 	// 예제 2-2 정수 자료형의 범위
@@ -30,6 +29,12 @@ void main()
 	// 예제 2-6 열거형 사용
 	printf("%s \n", "예제 2-6 열거형 사용");
 	enum_type();
+
+	printf("\n");
+
+	// 예제 2-7 변수 범위
+	printf("%s \n", "예제 2-7 변수 범위");
+	variable_scope();
 }
 
 
