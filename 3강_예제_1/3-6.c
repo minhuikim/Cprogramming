@@ -9,4 +9,5 @@ void example3_6()
 	putchar('K');
 	putchar('K' + 2);
 	putchar('\007');
+	//
 }
