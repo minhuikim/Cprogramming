@@ -10,7 +10,10 @@ int main()
 	example3_3();
 
 	printf("\n예제 3-4 scanf() 함수의 사용\n");
-	example3_4();
+	//example3_4();
+
+	printf("\n예제 3-5 getchar() 함수의 사용\n");
+	//example3_5();
 }
 
 /*
@@ -47,5 +50,11 @@ c =   123.4560, c(지수) = 1.234560e+02
 ch = A
 문자열을 입력 : Knou
 s[] = Knou
+
+예제 3-5 getchar() 함수의 사용
+문자 하나를 입력하세요
+f
+c = f
+
 
 */

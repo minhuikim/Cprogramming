@@ -142,6 +142,8 @@
     <ClCompile Include="3-2.c" />
     <ClCompile Include="3-3.c" />
     <ClCompile Include="3-4.c" />
+    <ClCompile Include="3-5.c" />
+    <ClCompile Include="3-6.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
