@@ -1,8 +1,9 @@
 #include <stdio.h>
-#pragma warning(disable:4996)
+#pragma warning(disable:4996) // 권장하지 않는 함수 사용에 대한 경고 메시지 무시
 
 int main()
 {
+
 	printf("예제 3-2 양식 변환기호의 사용\n");
 	example3_2();
 
@@ -10,11 +11,44 @@ int main()
 	example3_3();
 
 	printf("\n예제 3-4 scanf() 함수의 사용\n");
-	//example3_4();
+	example3_4();
 
 	printf("\n예제 3-5 getchar() 함수의 사용\n");
-	//example3_5();
+	example3_5();
+
+	printf("\n예제 3-6 putchar() 함수의 사용\n");
+	example3_6();
+
+	printf("\n\n예제 3-7 gets() 함수의 사용\n");
+	example3_7();
+
+	printf("\n예제 3-8 puts() 함수의 사용\n");
+	example3_8();
+
+	printf("\n\n예제 3-9 산술 연산자의 사용\n");
+	example3_9();
+
+	printf("\n예제 3-10 ++, -- 연산자의 사용\n");
+	example3_10();
+
+	printf("\n예제 3-11 관계 연산자의 사용\n");
+	example3_11();
+	
+	printf("\n예제 3-12 논리 연산자의 사용\n");
+	example3_12();
+
+	printf("\n예제 3-13 대입 연산자의 사용\n");
+	example3_13();
+
+	printf("\n예제 3-14 조건 연산자의 사용\n");
+	example3_14();
+
+	printf("\n예제 3-15 sizeof()의 사용\n");
+	example3_15();
+
 }
+
+
 
 /*
 [입, 출력 결과]
@@ -56,5 +90,49 @@ s[] = Knou
 f
 c = f
 
+예제 3-6 putchar() 함수의 사용
+AB
+KM
 
+예제 3-7 get() 함수의 사용
+문자열 입력? 컴퓨터 과학과
+gets()로 문자열 입력 = 컴퓨터 과학과
+문자열 입력? 컴퓨터 과학과
+scanf()로 문자열 입력 = 컴퓨터
+
+예제 3-8 puts() 함수의 사용
+Computer
+Science
+ComputerScience
+
+예제 3-9 산술 연산자의 사용
+x + y = 13
+x / y = 3
+x % y = 1
+y % x = 3
+
+예제 3-10 ++, -- 연산자의 사용
+a = ++b + ++c 실행 후 a = 2, b = 1, c = 1
+a = b++ + c++ 실행 후 a = 2, b = 2, c = 2
+a = b-- + --c 실행 후 a = 3, b = 1, c = 1
+
+예제 3-11 관계 연산자의 사용
+b = 1
+c = 0
+d = 1
+
+예제 3-12 논리 연산자의 사용
+c = 1
+d = 1
+e = 0
+
+예제 3-13 대입 연산자의 사용
+a = 20, b = 0, c = 3
+
+예제 3-14 조건 연산자의 사용
+b = 9
+
+예제 3-15 sizeof()의 사용
+int형의 크기는 = 4바이트
+float형 변수 a의 크기는 = 4바이트
 */

@@ -139,11 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3-10.c" />
+    <ClCompile Include="3-11.c" />
+    <ClCompile Include="3-12.c" />
+    <ClCompile Include="3-13.c" />
+    <ClCompile Include="3-14.c" />
+    <ClCompile Include="3-15.c" />
     <ClCompile Include="3-2.c" />
     <ClCompile Include="3-3.c" />
     <ClCompile Include="3-4.c" />
     <ClCompile Include="3-5.c" />
     <ClCompile Include="3-6.c" />
+    <ClCompile Include="3-7.c" />
+    <ClCompile Include="3-8.c" />
+    <ClCompile Include="3-9.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
