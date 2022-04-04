@@ -10,17 +10,17 @@ int main()
 	printf("\n예제 3-3 출력 양식의 편집\n");
 	example3_3();
 
-	printf("\n예제 3-4 scanf() 함수의 사용\n");
-	example3_4();
+	//printf("\n예제 3-4 scanf() 함수의 사용\n");
+	//example3_4();
 
-	printf("\n예제 3-5 getchar() 함수의 사용\n");
-	example3_5();
+	//printf("\n예제 3-5 getchar() 함수의 사용\n");
+	//example3_5();
 
 	printf("\n예제 3-6 putchar() 함수의 사용\n");
 	example3_6();
 
-	printf("\n\n예제 3-7 gets() 함수의 사용\n");
-	example3_7();
+	//printf("\n\n예제 3-7 gets() 함수의 사용\n");
+	//example3_7();
 
 	printf("\n예제 3-8 puts() 함수의 사용\n");
 	example3_8();
@@ -45,6 +45,15 @@ int main()
 
 	printf("\n예제 3-15 sizeof()의 사용\n");
 	example3_15();
+
+	printf("\n예제 3-16 자동 형변환\n");
+	example3_16();
+
+	printf("\n예제 3-17 강제 형변환\n");
+	example3_17();
+
+	printf("\n예제 3-18 강제 형변환의 예\n");
+	example3_18();
 
 }
 
@@ -135,4 +144,17 @@ b = 9
 예제 3-15 sizeof()의 사용
 int형의 크기는 = 4바이트
 float형 변수 a의 크기는 = 4바이트
+
+예제 3-16 자동 형변환
+나눗셈 결과 : 0.000000
+
+예제 3-17 강제 형변환
+나눗셈 결과 : 0.750000
+
+예제 3-18 강제 형변환의 예
+a + b * c = 610
+a = b += 2 * c -> a = 80
+a = (b > c) ? b : c -> a = 80
+a / b * c = 30
+a *= b = c + 5 -> a = 2800
 */
