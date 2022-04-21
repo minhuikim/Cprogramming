@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="example4_10.c" />
     <ClCompile Include="example4_11.c" />
+    <ClCompile Include="example4_12.c" />
+    <ClCompile Include="example4_13.c" />
+    <ClCompile Include="example4_14.c" />
     <ClCompile Include="example4_6.c" />
     <ClCompile Include="example4_7.c" />
     <ClCompile Include="main.c" />

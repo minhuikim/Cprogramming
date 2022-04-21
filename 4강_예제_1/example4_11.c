@@ -5,6 +5,7 @@ void example4_11()
 	int i;
 	printf("정수 입력(1~10) : ");
 	scanf("%d", &i);
+
 	if (i == 1)
 		goto ONE;								// 레이블명 ONE으로 무조건 실행을 옮김
 	else if (i == 2)
@@ -16,8 +17,8 @@ void example4_11()
 		printf("입력한 숫자는 1입니다. \n");
 		goto EXIT;								// 레이블명 EXIT으로 무조건 실행을 옮김
 	TWO:										// TWO 레이블명
-		printf("입력한 숫자는 1입니다. \n");
+		printf("입력한 숫자는 2입니다. \n");
 		goto EXIT;
 	EXIT:										// EXIT 레이블명
-		printf("프로그램을 종료합니다. \n")
+		printf("프로그램을 종료합니다. \n");
 }
